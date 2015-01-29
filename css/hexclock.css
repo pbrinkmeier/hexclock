@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+
+  background-color: #f24e4e;
+}
+
+.hexclock {
+  position: absolute;
+
+  left: 0;
+  top: 50%;
+  right: 0;
+
+  margin-top: -10.75em;
+
+  color: white;
+  text-align: center;
+}
+
+.hexclock__clock {
+  height: 1.5em;
+
+  font-size: 12em;
+  line-height: 1.5em;
+
+  text-shadow: .04em .04em 0 rgba(0,0,0,.2);
+}
+
+.hexclock__hex {
+  height: 1.5em;
+
+  font-size: 3em;
+  line-height: 1.5em;
+  text-shadow: .06em .06em 0 rgba(0,0,0,.2);
+}
